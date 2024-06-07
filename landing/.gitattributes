@@ -1,1 +1,17 @@
+# Establecer el comportamiento predeterminado, en caso de que los usuarios no tengan core.autocrlf configurado.
 * text=auto
+
+# Declarar explícitamente archivos de texto que siempre quieres que sean normalizados y convertidos
+# a finales de línea nativos al realizar el checkout.
+*.c text
+*.h text
+
+# Declarar archivos que siempre tendrán finales de línea CRLF al realizar el checkout.
+*.sln text eol=crlf
+
+# Declarar archivos que siempre tendrán finales de línea LF al realizar el checkout.
+*.sh text eol=lf
+
+# Los archivos binarios no deben ser modificados.
+*.png binary
+*.jpg binary

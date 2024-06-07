@@ -8,7 +8,6 @@ export default function Home() {
       <div className="bg-white flex flex-col items-center justify-center h-[260px] w-full px-10">
         <div className='w-full flex flex-col items-center justify-center'>
           <h2 className='text-2xl font-medium p-5 max-[1000px]:text-lg'>Catálogo ESP FILTERS</h2>
-          <div className='w-full flex items-center justify-center relative'><input type="text" className='w-full h-[50px] bg-[#F4F4F4] p-2 rounded max-[1000px]:text-lg' placeholder='Referencia ESP, Aplicación, Tipo de vehículo, OEM..... ' /><div className='absolute right-3 px-2 w-[30px] bg-[#F4F4F4]'>x</div></div>
           <div className='w-full cursor-pointer'><p>Buscar por medidas</p></div>
         </div>
       </div>
