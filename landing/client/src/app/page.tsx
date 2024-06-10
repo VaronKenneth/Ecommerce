@@ -7,7 +7,7 @@ export default function Home() {
         <p>Este es un div con un borde derecho diagonal.</p>
       <div className="bg-white flex flex-col items-center justify-center h-[260px] w-full px-10">
         <div className='w-full flex flex-col items-center justify-center'>
-          <h2 className='text-2xl font-medium p-5 max-[1000px]:text-lg'>Catálogo ESP FILTERS</h2>
+          <h2 className='text-2xl font-medium p-5 max-[1000px]:text-lg'>Catálogo</h2>
           <div className='w-full cursor-pointer'><p>Buscar por medidas</p></div>
         </div>
       </div>
